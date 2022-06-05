@@ -21,13 +21,13 @@ func main() {
 	fmt.Println("Golang Demo Calc")
 	fmt.Println("======================")
 
-	fmt.Println("Enter the first digit")
+	fmt.Println("Enter the first Number")
 	if _, err := fmt.Scan(&f_op); err != nil {
 		log.Print("Failed to scan first number", err)
 		return
 	}
 
-	fmt.Println("Enter the second digit")
+	fmt.Println("Enter the second Number")
 	if _, err := fmt.Scan(&s_op); err != nil {
 		log.Print("Failed to scan second number", err)
 		return
