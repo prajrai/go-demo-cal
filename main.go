@@ -18,6 +18,7 @@ func main() {
 	var f_op int
 	var s_op int
 
+	fmt.Println("NEW LINE ADDED") 
 	fmt.Println("Golang Demo Calc")
 	fmt.Println("======================")
 
